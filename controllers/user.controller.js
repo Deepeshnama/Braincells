@@ -4,7 +4,9 @@ const fetchUsers = async (req, res) => {
   try {
     const response = await axios.get(process.env.API);
 
+    res.status(200).json(response.data)
     return response.data;
+
   } catch (error) {
     throw new Error("Failed to fetch the data");
   }
