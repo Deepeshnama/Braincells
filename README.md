@@ -23,7 +23,7 @@ Query Parameters:
 name - Filter users by name
 sort - Sort users by name (asc or desc)
 
-example ==>   GET http://localhost:2500/api/users?name=Leanne&sort=asc
+example ==>   GET https://braincells.onrender.com/api/users?name=Leanne&sort=asc
 
 2. Fetch users directly from API
    
