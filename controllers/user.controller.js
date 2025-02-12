@@ -1,13 +1,14 @@
 import axios from "axios";
 
-const fetchUsers = async (req, res) => {
+const fetchUsers = async () => {
   try {
     const response = await axios.get(process.env.API);
 
-    res.status(200).json(response.data)
+    // res.status(200).json(response.data)
     return response.data;
 
   } catch (error) {
+    console.log(error)
     throw new Error("Failed to fetch the data");
   }
 };

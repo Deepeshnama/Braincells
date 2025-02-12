@@ -25,10 +25,6 @@ sort - Sort users by name (asc or desc)
 
 example ==>   GET https://braincells.onrender.com/api/users?name=Leanne&sort=asc
 
-2. Fetch users directly from API
-   
-URL: /api/get
-Method: GET
 
 
 

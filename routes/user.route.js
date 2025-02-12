@@ -3,8 +3,6 @@ import { fetchUsers, getAllUsers } from "../controllers/user.controller.js";
 
 const routes = express.Router();
 
-routes.get("/get", fetchUsers);
-
 routes.get("/users", getAllUsers);
 
 export default routes;
